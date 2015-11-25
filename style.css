@@ -2,3 +2,31 @@
 Custom CSS for TNA Moodle with Clean default theme
 
 */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Bitter', serif;
+}
+header .container-fluid {
+    background-color: #222;
+}
+.navbar .brand {
+    color: transparent;
+    text-shadow: none;
+    background: no-repeat url('http://www.nationalarchives.gov.uk/wp-content/themes/tna/images/global/logo-white.png') center center;
+    width:288px;
+    height:48px;
+}
+.dir-ltr .usermenu {
+    margin-top: 1em;
+}
+.usermenu .moodle-actionmenu .toggle-display {
+    color:#fff;
+}
+#page-footer {
+    border-top: 0;
+    background-color: #222;
+    color: #eee;
+}
