@@ -1,7 +1,11 @@
 /*
 Custom CSS for TNA Moodle with Clean default theme
 
+Copy/paste the CSS below into Moodle>Site administration>Appearance>Themes>Clean>Custom CSS
+
 */
+
+/* Global */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -9,6 +13,9 @@ body {
 h1, h2, h3, h4 {
     font-family: 'Bitter', serif;
 }
+
+/* Header */
+
 header .container-fluid {
     background-color: #222;
 }
@@ -25,6 +32,9 @@ header .container-fluid {
 .usermenu .moodle-actionmenu .toggle-display {
     color:#fff;
 }
+
+/* Footer */
+
 #page-footer {
     border-top: 0;
     background-color: #222;
